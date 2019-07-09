@@ -1,0 +1,93 @@
+#frontPic{
+    max-height: 700px;
+    width: 100%;
+    opacity: 0.5;
+    background: url(vomitcord1.jpg);
+    background-size: auto;
+    
+}
+
+#himself{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.item{
+    background-color: rgb(107, 107, 107);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+#logoPic{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+  
+.header {
+background-color: #f1f1f1;
+padding: 30px;
+text-align: center;
+}
+
+#navbar {
+overflow: hidden;
+background-color: #333;
+}
+
+#navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+#navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+#navbar a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.content {
+padding: 16px;
+}
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 60px;
+}
