@@ -15,6 +15,11 @@
     border-radius: 100px;
 }
 
+.window {
+    border-radius: 20px;
+
+}
+
 .item{
     background-color: rgb(107, 107, 107);
 }
